@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(8, 99, 144);
+}
+.layout{
+    background: rgb(188, 217, 229);
+    width: 750px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+img{
+   width: 750px;
+   height: 300px;
+   
+}
+.txt{
+    margin-left: 190px;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 40px;  
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <img src="./vaksin.jpeg" alt="">
+        </header>
+        <h1 class="txt">Form Pendaftaran Test Covid-19</h1>
+        <form action="" class="container">
+            <table>
+                <tr>
+                    <td>
+                        <label for="Nama" >Nama Lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NIK">NIK</label>
+                    </td>
+                    <td>
+                        <input type="text" name="NIK" id="NIK">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tlp">Telepon</label>
+                    </td>
+                    <td>
+                        <input type="text" name="tlp" id="tlp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Email</label>
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jnsklm">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="jnsklm" id="jnsklm" value="Laki- Laki"> Laki - Laki
+                        <input type="radio" name="jnsklm" id="jnsklm" value="Perempuan"> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lahir">Tempat Lahir</label>
+                    </td>
+                    <td>
+                        <input type="text" name="lahir" id="lahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tgl">Tanggal lahir</label>
+                    </td>
+                    <td>
+                        <input type="date" name="tgl" id="tgl">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Alamat Lengkap</label>
+                    </td>
+                    <td>
+                        <textarea name="alamat" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="">Jenis test covid</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="test" id="test" value="RT-PCR">RT-PCR
+                        <br>
+                        <input type="radio" name="test" id="test" value="TCM">TCM
+                        <br>
+                        <input type="radio" name="test" id="test" value="Rapid antigen">Rapid antigen
+                        <br>
+                        <input type="radio" name="test" id="test" value="Rapid antibodi">Rapid antibodi
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Jenis Pembayaran</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="pay" id="pay" value="Cash">Cash
+                        <br>
+                        <input type="radio" name="pay" id="pay" value="Transfer">Transfer
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" onclick="tampil()" >Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="./progam.js"></script>
+</body>
+</html>
